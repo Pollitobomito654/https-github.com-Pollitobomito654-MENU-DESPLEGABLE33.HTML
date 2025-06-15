@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Proyecto Técnico - Informática</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #dceefb, #d3e0ea);
+    }
+
+    .contenedor {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      padding: 20px;
+    }
+
+    header {
+      width: 100%;
+      background: linear-gradient(to right, #0077b6, #023e8a);
+      padding: 20px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 32px;
+      color: #ffffff;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    }
+
+    .perfil {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      padding: 30px 0;
+    }
+
+    .imagen-container img {
+      width: 130px;
+      height: auto;
+      border-radius: 20px;
+      border: 4px solid #2a9d8f;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      color: #1d3557;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #edf2f4;
+      padding: 20px;
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .menu {
+      position: relative;
+      margin: 10px;
+    }
+
+    .menu-button {
+      background-color: #457b9d;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 12px;
+      cursor: pointer;
+      color: #ffffff;
+      transition: background-color 0.3s;
+    }
+
+    .menu-button:hover {
+      background-color: #1d3557;
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 45px;
+      left: 0;
+      background-color: #f8f9fa;
+      border: 1px solid #adb5bd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      z-index: 1;
+      min-width: 180px;
+    }
+
+    .submenu a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #212529;
+      background-color: #dee2e6;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .submenu a:hover {
+      background-color: #ced4da;
+    }
+
+    .menu:hover .submenu {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <header>
+      <h1>PROYECTO DE ÁREA TÉCNICA - INFORMÁTICA 2025-2026</h1>
+    </header>
+
+    <div class="perfil">
+      <div class="imagen-container">
+        <!-- Cambia el nombre del archivo por tu imagen -->
+       <img src="C:\Users\Admin\Desktop\NID.png" alt="<alt/="Logo Izquierdo"><img src>
+      </div>
+      <div class="info">
+        Nombre: ALVARADO PALACIOS ANTHONY ALEXANDER <br>
+        Curso: 3RO "M"
+      </div>
+    </div>
+
+    <nav>
+      <div class="menu">
+        <button class="menu-button">Diseño Web</button>
+        <div class="submenu">
+          <a href="file:///C:/Users/Admin/Desktop/FINALMENU.HTML">1er Trimestre</a>
+          <a href="diseno2.html">2do Trimestre</a>
+          <a href="diseno3.html">3er Trimestre</a>
+        </div>
+      </div>
+
+      <div class="menu">
+        <button class="menu-button">Programación y BD</button>
+        <div class="submenu">
+          <a href="programacion1.html">1er Trimestre</a>
+          <a href="programacion2.html">2do Trimestre</a>
+          <a href="programacion3.html">3er Trimestre</a>
+        </div>
+      </div>
+
+      <div class="menu">
+        <button class="menu-button">Sistemas y Redes</button>
+        <div class="submenu">
+          <a href="sistemas1.html">1er Trimestre</a>
+          <a href="sistemas2.html">2do Trimestre</a>
+          <a href="sistemas3.html">3er Trimestre</a>
+        </div>
+      </div>
+
+      <div class="menu">
+        <button class="menu-button">Soporte Técnico</button>
+        <div class="submenu">
+          <a href="soporte1.html">1er Trimestre</a>
+          <a href="soporte2.html">2do Trimestre</a>
+          <a href="soporte3.html">3er Trimestre</a>
+        </div>
+      </div>
+
+      <div class="menu">
+        <button class="menu-button">Ofimática</button>
+        <div class="submenu">
+          <a href="ofimatica1.html">1er Trimestre</a>
+          <a href="ofimatica2.html">2do Trimestre</a>
+          <a href="ofimatica3.html">3er Trimestre</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</body>
+</html>
